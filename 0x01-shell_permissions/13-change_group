@@ -1,2 +1,7 @@
 #!/bin/bash
-chgrp holberton hello
+file="hello"
+group="school"
+
+chown :$group $file
+
+
