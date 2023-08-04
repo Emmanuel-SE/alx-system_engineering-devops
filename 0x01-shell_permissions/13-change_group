@@ -1,7 +1,2 @@
 #!/bin/bash
-file="hello"
-group="school"
-
-chown :$group $file
-
-
+chown :school hello
